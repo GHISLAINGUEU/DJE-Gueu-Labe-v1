@@ -48,13 +48,16 @@ st.markdown(
     
     *Région de Labé, République de Guinée*
 
+    """
+)
+
+st.markdown(
+    """
     *Cette application permet d'explorer mathématiquement l'effet des
     politiques d'activation économique sur la dynamique de la population
     jeune économiquement active.*
     """
 )
-
-
 # ============================================================
 # 3. MODELE DJE-GUEU
 # ============================================================
