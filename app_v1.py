@@ -36,7 +36,7 @@ st.sidebar.title("Navigation")
 
 #Afficher le logo dans la page principale
 st.image("GUEU_labe1.jpg", width=200)
-st.title("==============")
+st.title("")
 st.title("🗺️ DJE-Gueu")
 st.subheader(
     "Outil numérique exploratoire pour l'analyse de "
@@ -46,21 +46,12 @@ st.subheader(
 st.markdown(
     """
     Territoire étudié : 
+    
     Région de Labé, République de Guinée
 
     Cette application permet d'explorer mathématiquement l'effet des
     politiques d'activation économique sur la dynamique de la population
     jeune économiquement active.
-
-    🔎 **Informations**
-
-    Les travaux de recherche scientifique ont été réalisés par Guy Ghislain GUEU, 
-    Scientifique indépendant en équations différentielles.
-
-    🔎 **Contacts**
-    
-    (00 221) 77 807 62 07 uniquement par WhatsApp
-    ghislainci@outlook.fr
     """
 )
 
@@ -695,6 +686,21 @@ st.markdown(
     - les services ;
     - les chaînes de valeur ;
     - les infrastructures économiques.
+    """
+)
+
+
+st.markdown(
+    """
+    🔎 **Informations**
+
+    Les travaux de recherche scientifique ont été réalisés par Guy Ghislain GUEU, 
+    Scientifique indépendant en équations différentielles.
+
+    🔎 **Contacts**
+    
+    (00 221) 77 807 62 07 uniquement par WhatsApp
+    ghislainci@outlook.fr
     """
 )
 
