@@ -36,15 +36,17 @@ st.sidebar.title("Navigation")
 
 #Afficher le logo dans la page principale
 st.image("GUEU_labe1.jpg", width=200)
-st.title("")
 st.title("🗺️ DJE-Gueu")
 st.subheader(
     "Outil numérique exploratoire pour l'analyse de "
     "l'insertion socioéconomique des jeunes de Labé"
 )
 
+
+
 st.markdown(
     """
+    
     Territoire étudié : 
     
     Région de Labé, République de Guinée
