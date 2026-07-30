@@ -15,12 +15,15 @@ from PIL import Image
 # 1. CONFIGURATION DE LA PAGE
 # ============================================================
 
+
+#Configurer l'icône et le titre de l'onglet du navigateur
+icon = Image.open("logo_DLR.PNG")
 st.set_page_config(
 
 
     page_title="DJE-Gueu | Région de Labé",
-    page_icon="🖥️",
-    layout="wide"
+    page_icon=icon,
+    layout="centered"
 )
 
 
@@ -32,9 +35,9 @@ st.sidebar.image("logo_DLR.PNG", use_container_width=True)
 st.sidebar.title("Navigation")
 
 #Afficher le logo dans la page principale
-st.image("logo_DLR.PNG", width=200)
-st.title("    Modèle")
-st.title("🗺️ DJE-Gueu")
+st.image("GUEU_labe1.jpg", width=200)
+st.title("======================")
+st.title("🗺️ Modèle DJE-Gueu")
 st.subheader(
     "Outil numérique exploratoire pour l'analyse de "
     "l'insertion socioéconomique des jeunes de Labé"
@@ -42,13 +45,15 @@ st.subheader(
 
 st.markdown(
     """
-    🔎 **Territoire étudié : Région de Labé, République de Guinée**
+    🔎 **Territoire étudié : 
+    
+    Région de Labé, République de Guinée**
 
     Cette application permet d'explorer mathématiquement l'effet des
     politiques d'activation économique sur la dynamique de la population
     jeune économiquement active.
 
-    🔎 **Information**
+    🔎 **Informations**
 
     Les travaux de recherche scientifique ont été réalisés par Guy Ghislain GUEU, 
     Scientifique indépendant en équations différentielles.
