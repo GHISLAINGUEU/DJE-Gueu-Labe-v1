@@ -16,6 +16,8 @@ import matplotlib.pyplot as plt
 # ============================================================
 
 st.set_page_config(
+
+
     page_title="DJE-Gueu | Région de Labé",
     page_icon="📊",
     layout="wide"
@@ -44,6 +46,9 @@ st.markdown(
 
     Les travaux de recherche scientifique ont été réalisés par Guy Ghislain GUEU, 
     Scientifique indépendant en équations différentielles.
+
+    🔎 **Contacts**
+    
     (00 221) 77 807 62 07 uniquement par WhatsApp
     ghislainci@outlook.fr
     """
