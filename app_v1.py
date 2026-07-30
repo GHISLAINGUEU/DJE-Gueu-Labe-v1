@@ -35,7 +35,7 @@ st.sidebar.image("logo_DLR.PNG", use_container_width=True)
 st.sidebar.title("Navigation")
 
 #Afficher le logo dans la page principale
-st.image("GUEU_labe1.jpg", width=200, layout="centered)
+st.image("GUEU_labe1.jpg", layout="centered, width=200)
 st.title("==============")
 st.title("🗺️ DJE-Gueu")
 st.subheader(
