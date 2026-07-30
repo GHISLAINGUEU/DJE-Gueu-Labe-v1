@@ -9,7 +9,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-
+from PIL import Image
 
 # ============================================================
 # 1. CONFIGURATION DE LA PAGE
@@ -19,7 +19,7 @@ st.set_page_config(
 
 
     page_title="DJE-Gueu | Région de Labé",
-    page_icon="📊",
+    page_icon="🖥️",
     layout="wide"
 )
 
@@ -27,8 +27,15 @@ st.set_page_config(
 # ============================================================
 # 2. TITRE DE L'APPLICATION
 # ============================================================
+#Afficher le logo dans la barre latérale (Sidebar)
+st.sidebar.image("logo_DLR.PNG", use_container_width=True)
+st.sidebar.title("Navigation")
 
-st.title("📊 Modèle DJE-Gueu")
+#Afficher le logo dans la page principale
+st.image("logo_DLR.PNG", width=200)
+st.title("Bienvenue dans l'application")
+
+st.title("🗺️ Modèle DJE-Gueu")
 st.subheader(
     "Outil numérique exploratoire pour l'analyse de "
     "l'insertion socioéconomique des jeunes de Labé"
