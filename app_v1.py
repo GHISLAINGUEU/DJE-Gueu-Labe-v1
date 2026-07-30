@@ -29,7 +29,7 @@ st.set_page_config(
 st.title("📊 Modèle DJE-Gueu")
 st.subheader(
     "Outil numérique exploratoire pour l'analyse de "
-    "l'insertion socioéconomique des jeunes"
+    "l'insertion socioéconomique des jeunes de Labé"
 )
 
 st.markdown(
@@ -40,12 +40,12 @@ st.markdown(
     politiques d'activation économique sur la dynamique de la population
     jeune économiquement active.
 
-    ⚠️ **Avertissement méthodologique**
+    🔎 **Information**
 
-    Les résultats produits par cette application sont des simulations
-    mathématiques. Ils ne constituent pas des prévisions officielles et
-    ne remplacent pas les données statistiques réelles ni l'expertise
-    des autorités compétentes.
+    Les travaux de recherche scientifique ont été réalisés par Guy Ghislain GUEU, 
+    Scientifique indépendant en équations différentielles.
+    (00 221) 77 807 62 07 uniquement par WhatsApp
+    ghislainci@outlook.fr
     """
 )
 
@@ -695,8 +695,7 @@ st.warning(
     Le modèle DJE-Gueu constitue ici un outil mathématique exploratoire
     d'aide à l'analyse.
 
-    Les résultats ne doivent pas être interprétés comme des prévisions
-    statistiques officielles de la Région de Labé.
+    
 
     Pour une utilisation institutionnelle, les paramètres λ, α, κ et μ
     devront être estimés ou calibrés à partir de données socioéconomiques
