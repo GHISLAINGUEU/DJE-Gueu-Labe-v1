@@ -42,14 +42,11 @@ st.subheader(
     "l'insertion socioéconomique des jeunes de Labé"
 )
 
-st.markdown(
-    """
-    Territoire étudié : 
-    
-    *Région de Labé, République de Guinée*
+st.markdown("Territoire étudié :")
 
-    """
-)
+st.markdown("*Région de Labé, République de Guinée*")
+
+st.html("<div style='height: 30px;'></div>") # Crée un espace vide de 30 pixels
 
 st.markdown(
     """
