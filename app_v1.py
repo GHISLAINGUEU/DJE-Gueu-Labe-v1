@@ -48,8 +48,10 @@ st.markdown(
     """
     
     Territoire étudié : 
-    
     Région de Labé, République de Guinée
+
+
+
 
     Cette application permet d'explorer mathématiquement l'effet des
     politiques d'activation économique sur la dynamique de la population
