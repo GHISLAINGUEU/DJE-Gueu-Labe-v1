@@ -35,9 +35,9 @@ st.sidebar.image("logo_DLR.PNG", use_container_width=True)
 st.sidebar.title("Navigation")
 
 #Afficher le logo dans la page principale
-st.image("GUEU_labe1.jpg", width=200)
-st.title("======================")
-st.title("🗺️ Modèle DJE-Gueu")
+st.image("GUEU_labe1.jpg", width=200, layout="centered)
+st.title("==============")
+st.title("🗺️ DJE-Gueu")
 st.subheader(
     "Outil numérique exploratoire pour l'analyse de "
     "l'insertion socioéconomique des jeunes de Labé"
@@ -45,9 +45,8 @@ st.subheader(
 
 st.markdown(
     """
-    🔎 **Territoire étudié : 
-    
-    Région de Labé, République de Guinée**
+    Territoire étudié : 
+    Région de Labé, République de Guinée
 
     Cette application permet d'explorer mathématiquement l'effet des
     politiques d'activation économique sur la dynamique de la population
