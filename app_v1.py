@@ -33,7 +33,7 @@ st.sidebar.title("Navigation")
 
 #Afficher le logo dans la page principale
 st.image("logo_DLR.PNG", width=200)
-st.title("Modèle")
+st.title("    Modèle")
 st.title("🗺️ DJE-Gueu")
 st.subheader(
     "Outil numérique exploratoire pour l'analyse de "
