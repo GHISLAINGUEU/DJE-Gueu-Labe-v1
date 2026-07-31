@@ -55,6 +55,9 @@ st.markdown(
     jeune économiquement active.*
     """
 )
+
+st.html("<div style='height: 30px;'></div>") # Crée un espace vide de 30 pixels
+
 # ============================================================
 # 3. MODELE DJE-GUEU
 # ============================================================
@@ -308,6 +311,8 @@ with col4:
     )
 
 
+st.html("<div style='height: 30px;'></div>") # Crée un espace vide de 30 pixels
+
 # ============================================================
 # 9. GRAPHIQUE PRINCIPAL
 # ============================================================
@@ -345,6 +350,8 @@ ax.legend()
 
 st.pyplot(fig)
 
+
+st.html("<div style='height: 30px;'></div>") # Crée un espace vide de 30 pixels
 
 # ============================================================
 # 10. EQUILIBRES
@@ -397,6 +404,8 @@ else:
         "dans l'intervalle étudié."
     )
 
+
+st.html("<div style='height: 30px;'></div>") # Crée un espace vide de 30 pixels
 
 # ============================================================
 # 11. COMPARAISON DES SCENARIOS
@@ -535,6 +544,8 @@ st.dataframe(
     use_container_width=True
 )
 
+st.html("<div style='height: 30px;'></div>") # Crée un espace vide de 30 pixels
+
 
 # ============================================================
 # 13. ANALYSE DE SENSIBILITE
@@ -635,6 +646,8 @@ ax3.grid(True)
 st.pyplot(fig3)
 
 
+st.html("<div style='height: 30px;'></div>") # Crée un espace vide de 30 pixels
+
 # ============================================================
 # 14. INTERPRETATION
 # ============================================================
@@ -660,7 +673,9 @@ st.markdown(
 
     **Y(T) = {Y[-1]:.2f}**
 
-    ### Lecture politique
+st.html("<div style='height: 30px;'></div>") # Crée un espace vide de 30 pixels
+
+    ### 📖 Lecture politique
 
     Le modèle DJE-Gueu suggère que l'augmentation de **α**,
     représentant l'intensité des politiques d'activation économique,
@@ -672,6 +687,8 @@ st.markdown(
     En conséquence, une politique d'insertion efficace ne devrait pas
     seulement augmenter l'activation des jeunes. Elle devrait également
     renforcer la capacité d'absorption économique du territoire.
+
+st.html("<div style='height: 30px;'></div>") # Crée un espace vide de 30 pixels
 
     Les leviers peuvent notamment concerner :
 
@@ -688,6 +705,7 @@ st.markdown(
     """
 )
 
+st.html("<div style='height: 30px;'></div>") # Crée un espace vide de 30 pixels
 
 st.markdown(
     """
@@ -703,6 +721,7 @@ st.markdown(
     """
 )
 
+st.html("<div style='height: 30px;'></div>") # Crée un espace vide de 30 pixels
 
 # ============================================================
 # 15. AVERTISSEMENT FINAL
