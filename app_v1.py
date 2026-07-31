@@ -673,9 +673,8 @@ st.markdown(
 
     **Y(T) = {Y[-1]:.2f}**
 
-st.html("<div style='height: 30px;'></div>") # Crée un espace vide de 30 pixels
 
-    ### 📖 Lecture politique
+    ### Lecture politique
 
     Le modèle DJE-Gueu suggère que l'augmentation de **α**,
     représentant l'intensité des politiques d'activation économique,
@@ -688,7 +687,6 @@ st.html("<div style='height: 30px;'></div>") # Crée un espace vide de 30 pixels
     seulement augmenter l'activation des jeunes. Elle devrait également
     renforcer la capacité d'absorption économique du territoire.
 
-st.html("<div style='height: 30px;'></div>") # Crée un espace vide de 30 pixels
 
     Les leviers peuvent notamment concerner :
 
